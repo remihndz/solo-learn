@@ -23,4 +23,4 @@ from .nnunet import nnUNet as generic_nnunet_architecture
 def nnUNet(method, *args, **kwargs):
     return generic_nnunet_architecture(*args, **kwargs)
 
-__all__ = ["generic_nnunet_architecture"]
+__all__ = ["nnUNet"]
